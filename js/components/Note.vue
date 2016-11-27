@@ -1,18 +1,21 @@
 <template>
     <div class="note_board">
-        <h1>My Note</h1>
+         <Head></Head>
+        <h5>My Note</h5>
     </div>
 </template>
 
 <script>
+    import Head from './head/Head';
     export default{
         //....
+        components:{Head}
     }
 </script>
 
 <style>
     .note_board{
-        width:100px;
+        width:auto;
         height:300px;
         algin:center;
         border-radius:5px;
