@@ -3,8 +3,10 @@
         <form>
         <label>Name</label>
         <input />
+        <br><br>
         <label>Password</label>
-        <input />
+        <input  type="password"/>
+        <br>
         <button>Login In</button>
         </form>
     </div>
@@ -19,5 +21,12 @@
 <style>
     .btn-active{
         
+    }
+    button{
+        width:100px;
+        height:50px;
+        border-radius:0;
+        background-color:#2d78f4;
+        border:0px;
     }
 </style>
